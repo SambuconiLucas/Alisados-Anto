@@ -5,9 +5,11 @@
 }
 
 header {
-    background-color: #F0D9E7;
+    background-color: #b37b9e9f;
     padding: 10px 0;
 }
+
+/*HOME*/
 
 .menu-container {
     width: 990px;
@@ -38,5 +40,54 @@ nav  a {
     font-weight: bold;
     text-decoration: none;
     font-size: 18px;
-    margin: 0 0 0 15px;
+    margin: 0px 0px 0px 15px;
+}
+
+
+.principal {
+    padding: 3em 0;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    background: linear-gradient(#b37b9e9f,#fddcf1e5);
+}
+
+.img-herramientas1 {
+   padding: 2em 1em;
+   background: transparent;
+}
+
+.img-herramientas1 img {
+    width: 400px;
+    height: 400px;
+    
+}
+
+.info-principal {
+    position: relative;
+    top: 13em;
+   height: 90px;
+}
+
+.info-principal h2 {
+    font-size: 54px;
+    padding: 0px 0px 10px 0px;
+    font-weight: bold;
+}
+
+.info-principal p {
+    font-size: 17px;
+    font-weight: bold;
+}
+
+footer {
+    background-color: #fddcf1e5;
+    text-align: center;
+    padding: 20px 0px;
+    margin: 0 auto;
+}
+
+.copyright p {
+    font-size: 20px;
+    font-weight: bold;
 }
