@@ -43,7 +43,7 @@ nav  a {
     margin: 0px 0px 0px 15px;
 }
 
-/*Seccion Principal-Home*/
+/*SECCION-HOME*/
 .principal {
     padding: 3em 0;
     margin: 0 auto;
@@ -80,6 +80,13 @@ nav  a {
     font-weight: bold;
 }
 
+/*SECCION-SERVICIOS*/
+
+
+
+
+
+/*PIE DE PAGÍNA*/
 footer {
     background-color: #fddcf1e5;
     text-align: center;
