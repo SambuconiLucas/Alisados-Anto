@@ -4,6 +4,10 @@
     box-sizing: border-box;
 }
 
+body {
+    font-family: 'Montserrat', sans-serif;
+}
+
 header {
     background-color: #b37b9e9f;
     padding: 10px 0;
@@ -55,7 +59,7 @@ nav a:hover {
     margin: 0 auto;
     display: flex;
     justify-content: center;
-    background: linear-gradient(#b37b9e9f,#fddcf1e5);
+    background-color:#b37b9e9f ;
 }
 
 .img-herramientas1 {
@@ -77,20 +81,39 @@ nav a:hover {
 .info-principal {
     position: relative;
     top: 13em;
-   height: 90px;
+    height: 90px;
 }
 
 .info-principal h2 {
     font-size: 54px;
     padding: 0px 0px 10px 0px;
-    font-weight: bold;
 }
 
 .info-principal p {
     font-size: 17px;
-    font-weight: bold;
 }
 
+/*SECCION MI UBICACIÓN*/
+.ubicacion {
+    padding: 3em 0;
+    background: linear-gradient(#b37b9e9f,#fddcf1e5);
+}
+
+.titulo-mapa {
+    text-align: center;
+    font-size: 54px;
+    margin: 0px 0px 1em;
+}
+
+.ubicacion p {
+    margin: 0px 0px 2em;
+    text-align: center;
+}
+
+.mapa-contenido {
+    width: 940px;
+    margin: 0 auto;
+}
 /*PIE DE PAGÍNA*/
 footer {
     background-color: #fddcf1e5;
