@@ -69,6 +69,11 @@ nav a:hover {
     
 }
 
+.img-herramientas1 img:hover {
+    transform: scale(1.1);
+    transition: 2s;
+}
+
 .info-principal {
     position: relative;
     top: 13em;
