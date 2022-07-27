@@ -45,54 +45,61 @@ nav  a {
 
 /*Container Servicios*/
 main {
-    background-color: #b37b9e9f;
+    background: linear-gradient(#b37b9e9f,#fddcf1e5);
 }
 
 .servicios {
-    width: 940px;
+    width: auto;
     height: auto;
     margin: 0 auto;
-    padding: 50px;
+    padding: 50px 25px;
 }
 
 .servicios li {
-    display: inline-block;
+    display: inline-grid;
     text-align: center;
-    width: 30%;
-    vertical-align: top;
-    margin: 0 1.5%;
+    width: 20em;
+    height: 22em;
+    margin: 0 1.5% 1.5%;
     padding: 30px 20px;
     border: 2px solid #000000;
     border-radius: 20px;
 }
 
-.servicios h2 {
-    font-size: 2.5em;
-    font-weight: bold;
+.servicios li:hover {
+    border-color: #FF5C8D;
 }
-/* .productos {
-    width: 400px;
-    height: auto;
-    border: 2px solid black;
-    border-radius: 12px;
-    padding: 10px;
+
+.servicios h2 {
+    font-size: 2.2em;
+    font-weight: bold;
+    margin-bottom: 15px;
+}
+
+.servicios i {
+    font-size: 18px;
+    text-align: left;
+}
+
+.descripcion-servicios {
+    font-size: 18px;
+}
+
+.precio-servicios {
+    font-size: 20px;
+    font-weight: bold;
+    margin-top: 15px;
+    position: absolute;
+}
+
+footer {
+    background-color: #fddcf1e5;
+    text-align: center;
+    padding: 20px 0px;
     margin: 0 auto;
 }
 
-.titulo {
-    font-size: 3em;
+.copyright p {
+    font-size: 20px;
     font-weight: bold;
-    font-style: italic;
-    text-decoration: underline;
-    padding: 5px 10px 18px;
 }
-
-.parrafo {
-    font-size: 1.2em;
-    line-height: 1.5;
-    font-style: oblique;
-}
-
-span {
-    font-weight: bold;
-} */
