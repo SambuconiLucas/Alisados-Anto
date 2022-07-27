@@ -43,6 +43,12 @@ nav  a {
     margin: 0px 0px 0px 15px;
 }
 
+nav a:hover {
+    color: #F7E2E2;
+    text-decoration: underline;
+    transition: 1s;
+}
+
 /*SECCION-HOME*/
 .principal {
     padding: 3em 0;

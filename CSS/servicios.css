@@ -29,12 +29,17 @@
 
 .servicios li:hover {
     border-color: #FF5C8D;
+    cursor: pointer;
 }
 
 .servicios h2 {
     font-size: 2.2em;
     font-weight: bold;
     margin-bottom: 15px;
+}
+
+.servicios li:hover h2 {
+    font-size: 2.3em;
 }
 
 .servicios i {
