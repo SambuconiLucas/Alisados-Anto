@@ -4,6 +4,12 @@
     box-sizing: border-box;
 }
 
+h1 img {
+    text-align: center;
+    width: 160px;
+    height: 160px;
+}
+
 /*SECCION-SERVICIOS*/
 .main-servicios {
     background: linear-gradient(#b37b9e9f,#fddcf1e5);
