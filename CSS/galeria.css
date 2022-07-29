@@ -9,3 +9,49 @@ h1 img {
     width: 160px;
     height: 160px;
 }
+
+.galeria {
+    width: auto;
+    height: auto;
+    margin: 0 auto;
+    padding: 50px 25px;
+}
+
+.galeria li {
+    display: inline-block;
+    text-align: center;
+    width: 22em;
+    height: 25em;
+    margin: 0 1.5% 1.5%;
+    padding: 30px 20px;
+    border: 2px solid #000000;
+    border-radius: 20px;
+}
+
+.galeria h2 {
+    font-size: 2.2em;
+    font-weight: bold;
+    margin-bottom: 15px;
+}
+
+.antes {
+    display: inline-block;
+    padding: 5px;
+}
+
+.imagenes:hover {
+    transform: scale(1.1);
+    transition: 2s;
+}
+
+p.antes-despues {
+    font-size: 20px;
+    font-weight: bold;
+    margin-top: 25px;
+}
+
+.despues {
+    display: inline-block;
+    padding: 5px;
+}
+
