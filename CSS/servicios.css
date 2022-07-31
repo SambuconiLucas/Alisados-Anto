@@ -21,14 +21,6 @@ h1 img {
 }
 
 .container-servicios li {
-    /* display: inline-block;
-    text-align: center;
-    width: 30%;
-    margin: 0 1.5%;
-    padding: 30px 20px;
-    border: 2px solid #000000;
-    border-radius: 20px; */
-
     width: 50%;
     text-align: center;
     margin: 0 auto;
@@ -40,27 +32,16 @@ h1 img {
     align-items: center;
 }
 
-.container-servicios li:hover {
-    border-color: #FF5C8D;
-    cursor: pointer;
-    
-}
-
 .container-servicios h2 {
     font-size: 2.2em;
     font-weight: bold;
     margin: 10px auto;
 }
 
-.container-servicios li:hover h2 {
-    font-size: 2.3em;
-}
-
 .container-servicios i {
     font-size: 18px;
-    text-align: left;
-    display: block;
     display: none;
+    padding: 0px 0px 10px;
 }
 
 .descripcion-servicios {
@@ -75,3 +56,20 @@ h1 img {
     display: none;
 }
 
+.container-servicios li:hover {
+    border-color: #FF5C8D;
+    cursor: pointer;
+    
+}
+
+.container-servicios li:hover h2 {
+    font-size: 2.3em;
+}
+
+.container-servicios li:hover p {
+    display: flex;
+}
+
+.container-servicios li:hover i {
+    display: flex;
+}
