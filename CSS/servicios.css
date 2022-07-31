@@ -16,13 +16,8 @@ h1 img {
 }
 
 .container-servicios {
-    /* width: 1200px;
-    margin: 0 auto;
-    padding: 10px; */
     margin: 0 auto;
     padding: 10px;
-
-    display: inline-flex;
 }
 
 .container-servicios li {
@@ -34,22 +29,27 @@ h1 img {
     border: 2px solid #000000;
     border-radius: 20px; */
 
-    width: 30%;
+    width: 50%;
     text-align: center;
     margin: 0 auto;
     padding: 10px;
     border: 2px solid #000000;
     border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
 .container-servicios li:hover {
     border-color: #FF5C8D;
     cursor: pointer;
+    
 }
 
 .container-servicios h2 {
     font-size: 2.2em;
     font-weight: bold;
+    margin: 10px auto;
 }
 
 .container-servicios li:hover h2 {
@@ -60,14 +60,18 @@ h1 img {
     font-size: 18px;
     text-align: left;
     display: block;
+    display: none;
 }
 
 .descripcion-servicios {
     font-size: 18px;
+    display: none;
 }
 
 .precio-servicios {
     font-size: 20px;
     font-weight: bold;
     margin-top: 15px;
+    display: none;
 }
+
