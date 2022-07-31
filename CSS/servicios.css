@@ -59,6 +59,7 @@ h1 img {
 .container-servicios i {
     font-size: 18px;
     text-align: left;
+    display: block;
 }
 
 .descripcion-servicios {
