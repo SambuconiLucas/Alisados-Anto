@@ -16,7 +16,6 @@ h1 img {
 
 .galeria {
     width: auto;
-    height: auto;
     margin: 0 auto;
     padding: 50px 25px;
 }
@@ -27,7 +26,6 @@ h1 img {
     width: 22em;
     height: 20em;
     margin: 0 5% 2.5%;
-    padding: 30px 20px;
     border: 2px solid #000000;
     border-radius: 20px;
 }
@@ -42,7 +40,8 @@ h1 img {
 .galeria h2 {
     font-size: 2.2em;
     font-weight: bold;
-    margin-bottom: 15px;
+    margin-bottom: 10px;
+    padding: 5px;
 }
 
 .antes {

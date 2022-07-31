@@ -15,40 +15,48 @@ h1 img {
     background: linear-gradient(#b37b9e9f,#fddcf1e5);
 }
 
-.servicios {
-    width: auto;
-    height: auto;
+.container-servicios {
+    /* width: 1200px;
     margin: 0 auto;
-    padding: 50px 25px;
+    padding: 10px; */
+    margin: 0 auto;
+    padding: 10px;
+
+    display: inline-flex;
 }
 
-.servicios li {
-    display: inline-grid;
+.container-servicios li {
+    /* display: inline-block;
     text-align: center;
-    width: 20em;
-    height: 22em;
-    margin: 0 1.5% 1.5%;
+    width: 30%;
+    margin: 0 1.5%;
     padding: 30px 20px;
+    border: 2px solid #000000;
+    border-radius: 20px; */
+
+    width: 30%;
+    text-align: center;
+    margin: 0 auto;
+    padding: 10px;
     border: 2px solid #000000;
     border-radius: 20px;
 }
 
-.servicios li:hover {
+.container-servicios li:hover {
     border-color: #FF5C8D;
     cursor: pointer;
 }
 
-.servicios h2 {
+.container-servicios h2 {
     font-size: 2.2em;
     font-weight: bold;
-    margin-bottom: 15px;
 }
 
-.servicios li:hover h2 {
+.container-servicios li:hover h2 {
     font-size: 2.3em;
 }
 
-.servicios i {
+.container-servicios i {
     font-size: 18px;
     text-align: left;
 }
@@ -61,5 +69,4 @@ h1 img {
     font-size: 20px;
     font-weight: bold;
     margin-top: 15px;
-    position: absolute;
 }
