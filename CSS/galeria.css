@@ -40,7 +40,7 @@ h1 img {
 .galeria h2 {
     font-size: 2.2em;
     font-weight: bold;
-    margin-bottom: 10px;
+   margin: 10px auto;
     padding: 5px;
 }
 
