@@ -3,126 +3,89 @@
     padding: 0;
     box-sizing: border-box;
 }
-
 body {
     font-family: 'Montserrat', sans-serif;
 }
 
-header {
+/*Menu Navegacion*/
+.header-principal {
     background-color: #b37b9e9f;
     padding: 10px 0;
 }
-
-/*Menu Navegacion*/
-
 .menu-container {
-    width: 990px;
-    position: relative;
+    width: 100%;
     margin: 0 auto;
 }
-
-nav {
-    position: absolute;
-    right: 0px;
-    top: 80px;
+.headerPrincipal-titulo {
+    margin-bottom: 20px;
 }
-
-h1 img {
-    text-align: center;
-    width: 160px;
-    height: 160px;
-}
-
-nav  li {
-    display: inline;
-    margin: auto;
-}
-
-nav  a {
+.headerPrincipal-link{
     text-transform: uppercase;
     color: #000000;
     font-weight: bold;
     text-decoration: none;
     font-size: 18px;
-    margin: 0px 0px 0px 15px;
+    margin-bottom: 20px;
+    padding: 10px;
+    display: block;
 }
 
-nav a:hover {
+.headerPrincipal-link:hover {
     color: #F7E2E2;
     text-decoration: underline;
     transition: 1s;
 }
 
 /*SECCION-HOME*/
-.principal {
+.section-home {
     padding: 3em 0;
     margin: 0 auto;
-    display: flex;
-    justify-content: center;
     background-color:#b37b9e9f ;
 }
-
-.img-herramientas1 {
-   padding: 2em 1em;
-   background: transparent;
-}
-
-.img-herramientas1 img {
-    width: 400px;
-    height: 400px;
-    
-}
-
-.img-herramientas1 img:hover {
+.img-herramientas1:hover {
     transform: scale(1.1);
     transition: 2s;
 }
-
-.info-principal {
-    position: relative;
-    top: 13em;
-    height: 90px;
+.descripcion-home {
+    margin-left: 5%;
 }
-
-.info-principal h2 {
+.subtitulo-home {
     font-size: 54px;
-    padding: 0px 0px 10px 0px;
+    margin-bottom: 15px;
 }
 
-.info-principal p {
+.parrafo-home {
     font-size: 17px;
 }
 
 /*SECCION MI UBICACIÓN*/
-.ubicacion {
+.section-ubicacion {
     padding: 3em 0;
     background: linear-gradient(#b37b9e9f,#fddcf1e5);
 }
 
-.titulo-mapa {
-    text-align: center;
+.titulo-ubicacion {
     font-size: 54px;
-    margin: 0px 0px 1em;
+    margin-bottom: 1em;
 }
 
-.ubicacion p {
-    margin: 0px 0px 2em;
-    text-align: center;
+.parrafo-ubicacion {
+    margin-bottom: 2em;
 }
 
-.mapa-contenido {
-    width: 940px;
-    margin: 0 auto;
+.mapa-ubicacion {
+    max-width: 100%;
 }
 /*PIE DE PAGÍNA*/
 footer {
+    max-width: 100%;
     background-color: #fddcf1e5;
     text-align: center;
     padding: 20px 0px;
     margin: 0 auto;
 }
 
-.copyright p {
+.copyright {
     font-size: 20px;
     font-weight: bold;
 }

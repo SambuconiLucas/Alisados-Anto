@@ -1,0 +1,23 @@
+.header-principal .menu-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.headerPrincipal-nav {
+    display: flex;
+}
+.contenido-principal .container-home {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.section-ubicacion .container-ubicacion {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.descripcion-ubicacion {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
