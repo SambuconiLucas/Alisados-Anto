@@ -38,7 +38,7 @@ body {
 
 /*SECCION-HOME*/
 .section-home {
-    padding: 3em 0;
+    padding: 3em 1em;
     margin: 0 auto;
     background-color:#b37b9e9f ;
 }
@@ -60,7 +60,7 @@ body {
 
 /*SECCION MI UBICACIÓN*/
 .section-ubicacion {
-    padding: 3em 0;
+    padding: 3em 1em;
     background: linear-gradient(#b37b9e9f,#fddcf1e5);
 }
 

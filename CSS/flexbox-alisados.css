@@ -21,3 +21,42 @@
     align-items: center;
     flex-direction: column;
 }
+/*RESPONSIVE*/
+@media (max-width: 768px) {
+    .header-principal .menu-container {
+        flex-direction: column;
+        align-items: initial;
+        text-align: center;
+        margin: 10px auto;
+    }
+    .headerPrincipal-nav {
+        flex-direction: column;
+    }
+    .headerPrincipal-link {
+        padding-bottom: 15px;
+        border-bottom: 1px solid rgba(0, 0, 0, 0.507);
+    }
+    .section-home .container-home {
+        flex-direction: column-reverse;
+        text-align: center;
+    }
+    .section-home .descripcion-home {
+       display: flex;
+       flex-direction: column;
+       align-items: center;
+       margin: 0 auto;
+    }
+    .descripcion-home .subtitulo-home {
+        border-bottom: 2px solid rgba(0, 0, 0, 0.527);
+        margin-bottom: 20px;
+    }
+    .section-ubicacion .container-ubicacion {
+        flex-direction: column;
+        align-items: center;
+        padding: 0 10px;
+        text-align: center;
+    }
+    .descripcion-ubicacion .titulo-ubicacion {
+        border-bottom: 2px solid rgba(0, 0, 0, 0.527);
+    }
+}
