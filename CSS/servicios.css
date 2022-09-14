@@ -3,49 +3,40 @@
     margin: 0;
     box-sizing: border-box;
 }
-
-h1 img {
-    text-align: center;
-    width: 160px;
-    height: 160px;
-}
-
 /*SECCION-SERVICIOS*/
-.main-servicios {
+.contenidoPrincipal-servicios {
     background: linear-gradient(#b37b9e9f,#fddcf1e5);
 }
-
-.container-servicios {
-    margin: 0 auto;
+.subtitulo-servicios {
+    font-size: 2em;
+    font-weight: bold;
+}
+.servicios {
+    /* margin: 0 auto; */
     padding: 10px;
 }
 
-.container-servicios li {
+.listas-servicios {
     width: 50%;
     text-align: center;
-    margin: 0 auto;
     padding: 10px;
     border: 2px solid #000000;
     border-radius: 20px;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
 }
 
-.container-servicios h2 {
-    font-size: 2.2em;
+.listas-servicios h2 {
+    font-size: 1.5em;
     font-weight: bold;
-    margin: 10px auto;
 }
 
-.container-servicios i {
+.listas-servicios i {
     font-size: 18px;
     display: none;
     padding: 0px 0px 10px;
 }
 
 .descripcion-servicios {
-    font-size: 18px;
+    font-size: 17px;
     display: none;
 }
 
@@ -56,20 +47,20 @@ h1 img {
     display: none;
 }
 
-.container-servicios li:hover {
+.listas-servicios:hover {
     border-color: #FF5C8D;
     cursor: pointer;
     
 }
 
-.container-servicios li:hover h2 {
-    font-size: 2.3em;
+.listas-servicios:hover h2 {
+    font-size: 1.6em;
 }
 
-.container-servicios li:hover p {
+.listas-servicios:hover p {
     display: flex;
 }
 
-.container-servicios li:hover i {
+.listas-servicios:hover i {
     display: flex;
 }

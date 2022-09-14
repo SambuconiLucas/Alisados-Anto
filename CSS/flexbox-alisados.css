@@ -1,3 +1,4 @@
+/*SECCION DE HOME*/
 .header-principal .menu-container {
     display: flex;
     align-items: center;
@@ -21,6 +22,8 @@
     align-items: center;
     flex-direction: column;
 }
+/*SECCION SERVICIOS*/
+
 /*RESPONSIVE*/
 @media (max-width: 768px) {
     .header-principal .menu-container {
