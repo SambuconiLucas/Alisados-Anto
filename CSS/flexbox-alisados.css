@@ -23,9 +23,24 @@
     flex-direction: column;
 }
 /*SECCION SERVICIOS*/
-
+.container-servicios {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 0 auto;
+}
+.servicios {
+    display: flex;
+    flex-direction: column;
+}
+.listas-servicios {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
 /*RESPONSIVE*/
 @media (max-width: 768px) {
+    /*RESPONSIVE-HOME*/
     .header-principal .menu-container {
         flex-direction: column;
         align-items: initial;
@@ -61,5 +76,16 @@
     }
     .descripcion-ubicacion .titulo-ubicacion {
         border-bottom: 2px solid rgba(0, 0, 0, 0.527);
+    }
+    /*RESPONSIVE-SERVICIOS*/
+    .servicios {
+        flex-direction: column;
+    }
+    .listas-servicios {
+        width: 100%;
+    }
+    .listas-servicios:hover i {
+        display: inline-block;
+        margin: 0 auto;
     }
 }

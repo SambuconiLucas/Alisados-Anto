@@ -3,6 +3,10 @@
     margin: 0;
     box-sizing: border-box;
 }
+body {
+    width: 100%;
+    height: 100vh;
+}
 /*SECCION-SERVICIOS*/
 .contenidoPrincipal-servicios {
     background: linear-gradient(#b37b9e9f,#fddcf1e5);
@@ -10,6 +14,9 @@
 .subtitulo-servicios {
     font-size: 2em;
     font-weight: bold;
+    margin-bottom: 10px;
+    border-bottom: 2px solid rgba(0, 0, 0, 0.596);
+    text-align: center;
 }
 .servicios {
     /* margin: 0 auto; */
@@ -17,11 +24,12 @@
 }
 
 .listas-servicios {
-    width: 50%;
-    text-align: center;
+    width: 500px;
+    height: 100%;
     padding: 10px;
     border: 2px solid #000000;
     border-radius: 20px;
+    margin: 0 auto 20px;
 }
 
 .listas-servicios h2 {
@@ -50,17 +58,26 @@
 .listas-servicios:hover {
     border-color: #FF5C8D;
     cursor: pointer;
-    
+    flex-direction: column;
+    text-align: center;
 }
 
 .listas-servicios:hover h2 {
     font-size: 1.6em;
+    text-align: center;
+    margin-bottom: 5px;
+    padding: 5px;
 }
 
 .listas-servicios:hover p {
     display: flex;
+    justify-content: center;
+    padding: 5px 10px;
 }
 
 .listas-servicios:hover i {
     display: flex;
+    flex-wrap: wrap;
+    display: inline-block;
+    margin: 0 auto;
 }
