@@ -28,7 +28,7 @@ body {
     padding: 10px;
     border: 2px solid #000000;
     border-radius: 20px;
-    margin: 0 auto 20px;
+    margin: 0 auto 50px;
 }
 
 .listas-servicios h2 {
@@ -59,6 +59,7 @@ body {
     cursor: pointer;
     flex-direction: column;
     text-align: center;
+    transition: 1s;
 }
 
 .listas-servicios:hover h2 {
