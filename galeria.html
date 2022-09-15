@@ -4,105 +4,133 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="CSS/reset.css">
-    <link rel="stylesheet" href="CSS/style.css">
-    <link rel="stylesheet" href="CSS/galeria.css">
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/flexbox-alisados.css">
+    <link rel="stylesheet" href="css/galeria.css">
     <link rel="icon" href="../img/logo.ico">
     <title>Alisados-Galeria</title>
 </head>
 <body>
-    <header>
+    <header class="header-principal">
+        <!--MENU DE NAVEGACIÓN-->
         <div class="menu-container">
-            <h1>
-                <img src="../img/herramientas-2.png" alt="">
+            <h1 class="headerPrincipal-titulo">
+                <img class="img-logo" src="./img/herramientas-2.png" alt="Logo" width="160px" height="160px">
             </h1>
         
-            <nav>
-                <ul>
-                    <li><a href="index.html">Home</a></li>
-                    <li><a href="servicios.html">Servicios</a></li>
-                    <li><a href="galeria.html">Galeria</a></li>
-                    <li><a href="contacto.html">Contacto</a></li>
-                </ul>
+            <nav class="headerPrincipal-nav">
+                <a class="headerPrincipal-link" href="index.html">Home</a>
+                <a class="headerPrincipal-link" href="servicios.html">Servicios</a>
+                <a class="headerPrincipal-link" href="galeria.html">Galeria</a>
+                <a class="headerPrincipal-link" href="contacto.html">Contacto</a>
             </nav>
         </div>
     </header>
 
-    <main class="main-galeria">
-        <ul class="galeria">
-            <li>
-                <h2>Shock de Keratina</h2>
-                <div class="antes">
-                    <img class="imagenes" src="../img/shock-de-keratina-antes.png" alt="Shock de keratina antes" width="150px">
-                    <p class="antes-despues">Antes</p>
-                </div>
-                <div class="despues">
-                    <img class="imagenes" src="../img/shock-de-keratina-despues.png" alt="Shock de Keratina despues" width="135px">
-                    <p class="antes-despues">Despues</p>
-                </div>
-            </li>
-
-            <li>
-                <h2>Botox</h2>
-                <div class="antes">
-                    <img class="imagenes" src="../img/botox-antes.png" alt="Botox antes" width="155px" style="margin-top:24px;">
-                    <p class="antes-despues">Antes</p>
-                </div>
-                <div class="despues">
-                    <img class="imagenes" src="../img/botox-despues.png" alt="Botox despues" width="130px">
-                    <p class="antes-despues">Despues</p>
-                </div>
-            </li>
-
-            <li>
-                <h2>Alisados</h2>
-                <div class="antes">
-                    <img class="imagenes" src="../img/alisado-antes.png" alt="Alisados antes" width="150px">
-                    <p class="antes-despues">Antes</p>
-                </div>
-                <div class="despues">
-                    <img class="imagenes" src="../img/alisado-despues.png" alt="Alisados despues" width="130px">
-                    <p class="antes-despues">Despues</p>
-                </div>
-            </li>
-
-            <li>
-                <h2>Alisado Plastificado</h2>
-                <div class="antes">
-                    <img class="imagenes" src="../img/alisado-plastificado-antes.png" alt="Alisado Plastificado antes" width="160px">
-                    <p class="antes-despues">Antes</p>
-                </div>
-                <div class="despues">
-                    <img class="imagenes" src="../img/alisado-plastificado-despues.png" alt="Alisado PLstificado despues" width="110px">
-                    <p class="antes-despues">Despues</p>
-                </div>
-            </li>
-
-            <li>
-                <h2>Baño de Crema</h2>
-                <div class="antes">
-                    <img class="imagenes" src="../img/baño-de-crema-antes.png" alt="Baño de Crema antes" width="165px">
-                    <p class="antes-despues">Antes</p>
-                </div>
-                <div class="despues">
-                    <img class="imagenes" src="../img/baño-de-crema-despues.png" alt="Baño de Crema despues" width="120px">
-                    <p class="antes-despues">Despues</p>
-                </div>
-            </li>
-
-            <li>
-                <h2>Nutrición</h2>
-                <div class="antes">
-                    <img class="imagenes" src="../img/nutricion-antes.png" alt="Nutricion antes" width="155px" style="margin-top: 50px;">
-                    <p class="antes-despues">Antes</p>
-                </div>
-                <div class="despues">
-                    <img class="imagenes" src="../img/nutricion-despues.png" alt="Nutrición despues" width="130px">
-                    <p class="antes-despues">Despues</p>
-                </div>
-            </li>
-            
-        </ul>
+    <main class="contenido-galeria">
+        <div class="container-galeria">
+            <h2 class="subtitulo-nuestros-trabajos">Nuestros trabajos</h2>
+            <ul class="galeria">
+                <li class="listas-galeria">
+                    <h3 class="subtitulo-galeria">Shock de Keratina</h3>
+                    <div class="antes-despues">
+                        <div class="antes">
+                            <img class="imagenes-galeria" src="../img/shock-de-keratina-antes.png" alt="Shock de keratina antes" width="135px" height="261px">
+                            <p class="parrafo-antes-despues">Antes</p>
+                        </div>
+                        
+                        <div class="despues">
+                            <img class="imagenes" src="../img/shock-de-keratina-despues.png" alt="Shock de Keratina despues" width="135px" height="261px">
+                            <p class="parrafo-antes-despues">Despues</p>
+                        </div>
+                        
+                    </div>
+                </li>
+    
+                <li class="listas-galeria">
+                    <h3 class="subtitulo-galeria">Botox</h3>
+                    <div class="antes-despues">
+                        <div class="antes">
+                            <img class="imagenes" src="../img/botox-antes.png" alt="Botox antes" width="135px" height="262px">
+                            <p class="parrafo-antes-despues">Antes</p>
+                        </div>
+                        
+                        <div class="despues">
+                            <img class="imagenes" src="../img/botox-despues.png" alt="Botox despues" width="135px" height="262px">
+                            <p class="parrafo-antes-despues">Despues</p>
+                        </div>
+                       
+                    </div>
+                </li>
+    
+                <li class="listas-galeria">
+                    <h3 class="subtitulo-galeria">Alisados</h3>
+                    <div class="antes-despues">
+                        <div class="antes">
+                            <img class="imagenes" src="../img/alisado-antes.png" alt="Alisados antes" width="135px" height="265px">
+                            <p class="parrafo-antes-despues">Antes</p>
+                        </div>
+                        
+                        <div class="despues">
+                            <img class="imagenes" src="../img/alisado-despues.png" alt="Alisados despues" width="135px" height="265px">
+                            <p class="parrafo-antes-despues">Despues</p>
+                        </div>
+                        
+                    </div>
+                </li>
+    
+                <li class="listas-galeria">
+                    <h3 class="subtitulo-galeria">Alisado Plastificado</h3>
+                    <div class="antes-despues">
+                        <div class="antes">
+                            <img class="imagenes" src="../img/alisado-plastificado-antes.png" alt="Alisado Plastificado antes" width="135px" height="265px">
+                            <p class="parrafo-antes-despues">Antes</p>
+                        </div>
+                        
+                        <div class="despues">
+                            <img class="imagenes" src="../img/alisado-plastificado-despues.png" alt="Alisado PLstificado despues" width="135px" height="265px">
+                            <p class="parrafo-antes-despues">Despues</p>
+                        </div>
+                        
+                    </div>
+                </li>
+    
+                <li class="listas-galeria">
+                    <h3 class="subtitulo-galeria">Baño de Crema</h3>
+                    <div class="antes-despues">
+                        <div class="antes">
+                            <img class="imagenes" src="../img/baño-de-crema-antes.png" alt="Baño de Crema antes" width="135px" height="254px">
+                            <p class="parrafo-antes-despues">Antes</p>
+                        </div>
+                        
+                        <div class="despues">
+                            <img class="imagenes" src="../img/baño-de-crema-despues.png" alt="Baño de Crema despues" width="135px" height="254px">
+                            <p class="parrafo-antes-despues">Despues</p>
+                        </div>
+                        
+                    </div>
+                </li>
+    
+                <li class="listas-galeria">
+                    <h3 class="subtitulo-galeria">Nutrición</h3>
+                    <div class="antes-despues">
+                        <div class="antes">
+                            <img class="imagenes" src="../img/nutricion-antes.png" alt="Nutricion antes" width="135px"  height="255px">
+                            <p class="parrafo-antes-despues">Antes</p>
+                        </div>
+                        
+                        <div class="despues">
+                            <img class="imagenes" src="../img/nutricion-despues.png" alt="Nutrición despues" width="135px"  height="255px">
+                            <p class="parrafo-antes-despues">Despues</p>
+                        </div>
+                        
+                    </div>
+                </li>
+                
+            </ul>
+        </div>
+        
     </main>
 
     <footer>
